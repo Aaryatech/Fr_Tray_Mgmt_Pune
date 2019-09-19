@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Franchise Tray Mgmt</string>
+
+    <string name="str_small">Tray</string>
+    <string name="str_big">Box</string>
+    <string name="str_lids">Lids</string>
+
+    <string name="str_small_">Tray - </string>
+    <string name="str_big_">Box - </string>
+    <string name="str_lids_">Lids - </string>
+
+</resources>

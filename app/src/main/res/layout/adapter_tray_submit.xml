@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+
+        <!--  <LinearLayout
+              android:id="@+id/llStatus4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:layout_marginTop="10dp"
+              android:orientation="vertical"
+              android:visibility="gone">
+
+
+              <android.support.v7.widget.CardView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:elevation="2dp"
+                  app:cardBackgroundColor="#FCEEBC"
+                  app:cardElevation="2dp">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/tvStatus4_Id"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:visibility="gone" />
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Received Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Date1"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Small1"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Big1"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Large1"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Return Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Date2"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Small2"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Big2"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Large2"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Return Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Date3"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Small3"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Big3"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_Large3"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Balance Tray : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus4_BalSmall"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_BalBig"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_BalLarge"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Return Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus4_RetDate"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <EditText
+                              android:id="@+id/edStatus4_Small"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:background="@android:drawable/editbox_background_normal"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:padding="7dp" />
+
+                          <EditText
+                              android:id="@+id/edStatus4_Big"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:background="@android:drawable/editbox_background_normal"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:padding="7dp" />
+
+                          <EditText
+                              android:id="@+id/edStatus4_Large"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:background="@android:drawable/editbox_background_normal"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:padding="7dp" />
+
+
+
+                      </LinearLayout>
+
+                  </LinearLayout>
+              </android.support.v7.widget.CardView>
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:id="@+id/llStatus3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:layout_marginTop="10dp"
+              android:orientation="vertical"
+              android:visibility="gone">
+
+
+              <android.support.v7.widget.CardView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:elevation="2dp"
+                  app:cardBackgroundColor="#fac1c5"
+                  app:cardElevation="2dp">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/tvStatus3_Id"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:visibility="gone" />
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Received Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus3_Date1"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus3_Small1"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus3_Big1"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus3_Large1"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Return Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus3_Date2"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus3_Small2"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus3_Big2"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus3_Large2"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Balance Tray : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus3_BalSmall"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus3_BalBig"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus3_BalLarge"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Return Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus3_RetDate"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <EditText
+                              android:id="@+id/edStatus3_Small"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:background="@android:drawable/editbox_background_normal"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:padding="7dp" />
+
+                          <EditText
+                              android:id="@+id/edStatus3_Big"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:background="@android:drawable/editbox_background_normal"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:padding="7dp" />
+
+                          <EditText
+                              android:id="@+id/edStatus3_Large"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:background="@android:drawable/editbox_background_normal"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:padding="7dp" />
+
+
+
+                      </LinearLayout>
+
+                  </LinearLayout>
+              </android.support.v7.widget.CardView>
+          </LinearLayout>
+
+          <LinearLayout
+              android:id="@+id/llStatus2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:layout_marginTop="10dp"
+              android:orientation="vertical"
+              android:visibility="gone">
+
+              <android.support.v7.widget.CardView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:elevation="2dp"
+                  app:cardBackgroundColor="#d0fcc0"
+                  app:cardElevation="2dp">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/tvStatus2_Id"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:visibility="gone" />
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Received Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus2_Date1"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus2_Small"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus2_Big"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus2_Large"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Balance Tray : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus2_BalSmall"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus2_BalBig"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                          <TextView
+                              android:id="@+id/tvStatus2_BalLarge"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:text="0" />
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Return Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus2_RetDate"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <EditText
+                              android:id="@+id/edStatus2_Small"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:background="@android:drawable/editbox_background_normal"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:padding="7dp" />
+
+                          <EditText
+                              android:id="@+id/edStatus2_Big"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:background="@android:drawable/editbox_background_normal"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:padding="7dp" />
+
+                          <EditText
+                              android:id="@+id/edStatus2_Large"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:background="@android:drawable/editbox_background_normal"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center"
+                              android:padding="7dp" />
+
+
+
+                      </LinearLayout>
+
+                  </LinearLayout>
+              </android.support.v7.widget.CardView>
+          </LinearLayout>
+
+          <LinearLayout
+              android:id="@+id/llStatus1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:layout_marginTop="10dp"
+              android:orientation="vertical"
+              android:visibility="gone">
+
+              <android.support.v7.widget.CardView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:elevation="2dp"
+                  app:cardBackgroundColor="#c2eafd"
+                  app:cardElevation="2dp">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/tvStatus1_Id"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:visibility="gone" />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:background="@color/colorPrimary"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:text="Received Date : "
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+
+                          <TextView
+                              android:id="@+id/tvStatus1_Date"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:textColor="@android:color/white"
+                              android:textSize="15sp" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="5dp"
+                          android:layout_marginTop="5dp"
+                          android:orientation="horizontal">
+
+                          <TextView
+                              android:id="@+id/tvStatus1_Small"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center" />
+
+                          <TextView
+                              android:id="@+id/tvStatus1_Big"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center" />
+
+                          <TextView
+                              android:id="@+id/tvStatus1_Large"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:fontFamily="@font/open_sans_semi_bold"
+                              android:gravity="center" />
+
+
+
+                      </LinearLayout>
+
+                  </LinearLayout>
+              </android.support.v7.widget.CardView>
+          </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/llStatus3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                app:cardBackgroundColor="#fac1c5"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvStatus3_Id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/colorPrimary"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:text="Received Date : "
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvStatus3_Date1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvStatus3_Small1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:text="0" />
+
+                        <TextView
+                            android:id="@+id/tvStatus3_Large1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:text="0" />
+
+                        <TextView
+                            android:id="@+id/tvStatus3_Big1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:text="0" />
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/colorPrimary"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:text="Return Tray : "
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvStatus3_Small2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:text="0" />
+
+                        <TextView
+                            android:id="@+id/tvStatus3_Large2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:text="0" />
+
+                        <TextView
+                            android:id="@+id/tvStatus3_Big2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:text="0" />
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/colorPrimary"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:text="Balance Tray : "
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvStatus3_BalSmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:text="0" />
+
+                        <TextView
+                            android:id="@+id/tvStatus3_BalLarge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:text="0" />
+
+                        <TextView
+                            android:id="@+id/tvStatus3_BalBig"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:text="0" />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/colorPrimary"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:text="Return Date : "
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvStatus3_RetDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edStatus3_Small"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/editbox_background_normal"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:padding="7dp"
+                            android:inputType="number"
+                            android:singleLine="true" />
+
+                        <EditText
+                            android:id="@+id/edStatus3_Large"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/editbox_background_normal"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:padding="7dp"
+                            android:singleLine="true" />
+
+                        <EditText
+                            android:id="@+id/edStatus3_Big"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/editbox_background_normal"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:padding="7dp"
+                            android:singleLine="true" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tvTray3_Submit"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="15dp"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/open_sans_semi_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Submit"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llStatus1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                app:cardBackgroundColor="#c2eafd"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvStatus1_Id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/colorPrimary"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:text="Received Date : "
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvStatus1_Date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvStatus1_Small"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center" />
+
+
+                        <TextView
+                            android:id="@+id/tvStatus1_Large"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center" />
+
+                        <TextView
+                            android:id="@+id/tvStatus1_Big"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/open_sans_semi_bold"
+                            android:gravity="center" />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvTray_Submit"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="15dp"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/open_sans_semi_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Receive"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

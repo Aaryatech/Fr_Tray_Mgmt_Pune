@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return Tray"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_semi_bold"
+            android:gravity="center"
+            android:text="Tray"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_semi_bold"
+            android:gravity="center"
+            android:text="Lids"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_semi_bold"
+            android:gravity="center"
+            android:text="Box"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:fontFamily="@font/open_sans_semi_bold"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="7dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/edLids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:fontFamily="@font/open_sans_semi_bold"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="7dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/edBig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:fontFamily="@font/open_sans_semi_bold"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="7dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="5dp"
+            android:gravity="center"
+            android:id="@+id/tvReturn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner_blue"
+            android:layout_margin="5dp"
+            android:text="Return"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:padding="5dp"
+            android:gravity="center"
+            android:id="@+id/tvCancel"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner_blue"
+            android:text="Cancel"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</LinearLayout>
